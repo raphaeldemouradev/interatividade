@@ -1,0 +1,14 @@
+div.item-rubi {
+    background-color: #aa0000;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.rubi h2 {
+    text-shadow: 2px 3px 10px #702e2e;
+    text-align: center;
+    margin-top: 10px;
+}

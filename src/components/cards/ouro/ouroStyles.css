@@ -1,0 +1,15 @@
+/*container dos 3 cards*/
+div.item-ouro {
+    background-color: #cf9f00;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.ouro h2 {
+    text-shadow: 2px 3px 10px #534700;
+    text-align: center;
+    margin-top: 10px;
+}

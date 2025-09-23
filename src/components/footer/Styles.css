@@ -1,0 +1,60 @@
+footer div.footer-content {
+    background-color: #0f0f0f;
+    padding: 25px;
+    padding-bottom: 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+div.footer-content h3 {
+    margin-bottom: 5px;
+}
+
+div.footer-social-media a {
+    color: #cccccc;
+}
+
+.footer-link {
+    color: #aaaaaa;
+}
+
+.footer-list {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    list-style: none;
+}
+
+@media screen and (max-width: 750px) {
+    footer div.footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    footer div.footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.produto {
+        margin: 2px;
+    }
+
+    div.item {
+        width: 200px;
+        height: 200px;
+    }
+
+    div.item h2 {
+        font-size: 19px;
+    }
+
+    div.operacao button.mais, button.menos {
+        width: 25px;
+        height: 25px;
+        margin: 0px 5px;
+    }
+
+}

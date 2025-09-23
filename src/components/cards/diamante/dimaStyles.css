@@ -1,0 +1,15 @@
+div.item-dima {
+    background-color: #0093ad;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.diamante h2 {
+    text-shadow: 2px 3px 10px #264f5c;
+    text-align: center;
+    margin-top: 10px;
+}
+

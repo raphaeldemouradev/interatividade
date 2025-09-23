@@ -1,0 +1,205 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor1: cadetblue;
+    --cor2: #008cff;
+}
+
+body {
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeça*/
+header {
+    background-color: var(--cor1);
+    padding-top: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #3c5d5fb0;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: var(--cor1);
+    padding: 15px 10px;
+}
+
+/* corpo */
+div.principal {
+    margin-top: 10px;
+}
+
+/*main*/
+main h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+main section p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main section {
+    margin: 10px;
+}
+
+/*section produto*/
+section.produto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-produto {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+img {
+    width: 80px;
+}
+
+div.operacao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.operacao button.mais, button.menos {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    color: #757575;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0px 5px;
+    padding: 0;
+}
+div.operacao button.mais:hover, button.menos:hover {
+    background-color: #a8a8a8;
+}
+
+div.operacao div.area {
+    background-color: white;
+    width: 40px;
+    height: 23px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div.comprar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.comprar button.botao-comprar {
+    background-color: green;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+div.comprar button.botao-comprar:hover {
+    background-color: #066306ee;
+    box-shadow: 1px 1px 10px #343535;
+}
+
+/*area de coin*/
+.container {
+    width: 660px;
+    margin: auto;
+}
+
+.coin-area {
+    margin: auto;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 660px;
+}
+
+div.total-coin {
+    margin: auto auto 50px auto;
+}
+
+div.total-coin p {
+    text-align: left;
+    font-weight: bold;
+    background-color: #31759c;
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-indent: 0px;
+}
+
+.txt-indica {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    text-indent: 0px;
+}
+
+/* roda pé */
+footer {
+    margin-top: 10px;
+}
+
+footer div.footer-copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 360px) {
+    footer div.footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.produto {
+        margin: 2px;
+    }
+
+    .item-ouro, .item-dima, .item-rubi  {
+        width: 100px;
+        height: 200px;
+    }
+
+    div.item h2 {
+        font-size: 19px;
+    }
+
+    div.operacao button.mais, button.menos {
+        width: 25px;
+        height: 25px;
+        margin: 0px 5px;
+    }
+
+}
